@@ -19,3 +19,76 @@
 footer.bg-light {
     color: #2e2e2e;
 }
+/* --------------------- FORM --------------------- */
+
+.avaliacao .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.avaliacao .wizard-container {
+    padding-top: 0;
+}
+
+.wizard-title {
+    font-size: 26px;
+}
+
+.avaliacao .tab-content, .avaliacao .wizard-footer {
+    padding: 0 40px;
+}
+
+.avaliacao .info-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+}
+
+.avaliacao .termo{
+ font-size: 15px;
+}
+
+.wizard-footer .pull-right {
+    text-align: right;
+}
+.btn-finish{
+    float: right!important;
+}
+
+.wizard-footer .pull-right input, 
+.wizard-footer .pull-right input:visited,
+.wizard-footer .pull-right input:active,
+.wizard-footer .pull-right input:focus
+ {
+    background-color: rgb(52, 63, 82);
+    border: none;
+    color: #fff;
+}
+
+.wizard-footer .pull-right input:hover {
+    background-color: rgb(41, 50, 65);
+    border: none;
+}
+
+.input-group-addon i {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    margin-top: 23.5px;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.radio-form {
+    padding: 6px 30px 0;
+}
