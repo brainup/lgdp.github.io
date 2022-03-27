@@ -1,3 +1,13 @@
+.progress-wrap {
+    position: fixed;
+    right: 0.9rem;
+    bottom: 4.2rem;
+}
+
+.social a:not(.btn-circle) i {
+    font-size: 2rem;
+}
+
 .text-card {
     font-size: 13px;
 }
