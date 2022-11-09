@@ -1,0 +1,42 @@
+*{
+    color: aliceblue;
+}
+nav{
+    background: linear-gradient(200deg,#AB13B7,#160E73);
+}
+#navbar .img_logo{
+    width: 300px;
+    height: 120px;
+}
+#navbar a { /*fonte da cor dos items da navbar*/
+    color: #faf5f5;
+}
+
+#navbar .navbar-toggler{
+  color: #f5f5f5;
+
+}
+
+#navbar a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+}
+
+.navbar-brand {  /*classe do link da logo */
+    display: flex;
+}
+
+
+
+
+#navbar-items .navbar-nav {    /*classe para centralizar os elementos ao centro */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+
+#navbar-items .nav-item {  /*margem de um elemento para o outro */
+    margin: 1 1em;
+}
