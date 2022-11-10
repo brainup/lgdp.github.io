@@ -2,7 +2,7 @@
     color: aliceblue;
 }
 nav{
-    background: linear-gradient(200deg,#AB13B7,#160E73);
+    background: linear-gradient(200deg,#E6445C,#160E73);
 }
 #navbar .img_logo{
     width: 300px;
@@ -39,4 +39,75 @@ nav{
 
 #navbar-items .nav-item {  /*margem de um elemento para o outro */
     margin: 1 1em;
+}
+.Posicionamento{
+    padding: 5%;
+}
+
+.ImagemTela01{
+    background-image: url("../files/PÁGINA 01/página 01/EL1_FUNDO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Destaque-Fonte{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+}
+
+
+.CorFormTela01{
+    /* background: #160E73; */
+    /* width: 95%; */
+    text-align: center;
+    
+}
+.ParagrafoTela01{
+    letter-spacing: 0.1em; 
+}
+
+.CaixaCor{
+    width: 100%;
+    height: 30px;
+    background: #160E73;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .caixa{
+    width: 100%;
+    margin: 10px;
+    
+  }
+  input{
+    width: 100%;
+    border-radius: 10px;
+    border: solid 0px;
+  }
+  textarea{
+    width: 100%;
+    border-radius: 10px;
+  }
+.form-check{
+    margin-left: 10px;    
+}
+.BotaoForm1{
+    text-align: center;
+    
+   }
+.BOTAO1{
+    border-radius: 20px;
+    background: #E6445C ;
+    border: solid 0px;
+    letter-spacing: 0.1em;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.ImagemTela02{
+    background-image:url("/HTMLCSSJS/EL2_FUNDO.png") ;
+    background: linear-gradient(135deg,#E6445C,#160E73);
+}
+.card{
+    background: #967781;
 }
