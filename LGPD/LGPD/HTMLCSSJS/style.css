@@ -83,10 +83,12 @@ nav{
     width: 100%;
     border-radius: 10px;
     border: solid 0px;
+    opacity: 70%;
   }
   textarea{
     width: 100%;
     border-radius: 10px;
+    opacity: 70%;
   }
 .form-check{
     margin-left: 10px;    
@@ -105,9 +107,66 @@ nav{
 }
 
 .ImagemTela02{
-    background-image:url("/HTMLCSSJS/EL2_FUNDO.png") ;
-    background: linear-gradient(135deg,#E6445C,#160E73);
+    background-image:url("./EL2_FUNDO.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-.card{
-    background: #967781;
+.card{    
+    border: solid , 0px;
+    margin: 5%;  
+}
+.CardOpacity{
+    background: #f5f5f5;
+    opacity: 30%;
+}
+
+#section02 .CardTransparent{
+    background: transparent;
+}
+
+.MarginCol8{
+    margin-top: 5%;
+    text-align: left;
+    
+
+}
+.TextTitleCardTransparentSection2{
+    font-size: 50px;
+}
+.TextBodyCardTransparentSection2{
+    font-size: 25px;
+}
+.ImagemTela03{
+background: url("./EL3_FUNDO.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.TituloTela03{
+    text-align: center;
+    font-size: 40px;
+}
+.tel3{
+    color: #160E73;
+}
+
+.TextoTela03{
+    text-align: center;
+    font-size: 25px;
+}
+.textotel3{
+    color: #160E73;
+}
+.ButtonTela03{
+    
+    text-align: center;
+    width: 100%;
+
+
+}
+.ButonTela03{
+    text-align: center;
+    background: #160E73;
+    border-radius: 10px;
+    width: 500px;
 }
