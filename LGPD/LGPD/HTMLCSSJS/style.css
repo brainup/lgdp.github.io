@@ -116,15 +116,41 @@ nav{
     border: solid , 0px;
     margin: 5%;  
 }
-.CardOpacity{
-    background: #f5f5f5;
-    opacity: 30%;
+#section02 h5{
+    font-size: 40px;
+    font-weight: 700;
 }
-
-#section02 .CardTransparent{
+#section02 p{
+    font-size: 25px;
+}
+.CardTransparentNotbook{
     background: transparent;
+    border: none;
+}
+.CardOpacity{
+    width: 320px;
+    max-width: 320px;
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #b86f96;
+    justify-content: center;
+    text-align: justify;
 }
 
+.CardTransparent{
+    background: transparent;
+    width: 320px;
+    max-width: 320px;
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    border: none;
+}
 .MarginCol8{
     margin-top: 5%;
     text-align: left;
@@ -142,6 +168,8 @@ background: url("./EL3_FUNDO.png");
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+
 .TituloTela03{
     text-align: center;
     font-size: 40px;
@@ -192,6 +220,31 @@ background-size: cover;
     font-size: 25px;
     letter-spacing: 0.1em;
     font-weight: 500;
+    justify-content: center;
+    text-align: justify;
+}
+#section04 .card{
+    margin-top: 70%;
+    width: 400px;
+    max-width: 400px;
+    height: 400px;
+    max-height: 400px;
+    background: #b86f96;
+    justify-content: center;
+    text-align: center;
+}
+.ImagemRepresentantesTel04{
+    width: 325px;
+    height: 400px;
+    position: relative;
+    top: -30%;
+    left: 40px;
+    border-radius: 10px;
+}
+#section04 .card .card-title{
+    font-size: 30px;
+    margin-top: -30%;
+    
 }
 .H6TitutoTel05{
     text-align: center;
@@ -199,6 +252,26 @@ background-size: cover;
     font-weight: 700;
     color: #160E73;
 }
+#section05{
+    background: #e1e7ea;
+}
+#section05 .card{
+    background: #e1e7ea;
+    color: #616170;
+    width: 350px;
+}
+#section05 .card h5{
+    background: #e1e7ea;
+    color: #616170;
+}
+#section05 .card p{
+    background: #e1e7ea;
+    color: #616170;
+}
+#section05 .ImagemBlogsTel05{
+    width: 100%;
+}
+
 .TamanhoCardTel6{
     width: 270px;
     height: 500px;
