@@ -412,12 +412,20 @@ margin-left: -65px;
         }
         .TextTitleCardTransparentSection2{
             text-align: left;
+            /* font-size: 35px; */
         }
         .TextBodyCardTransparentSection2{
             text-align: left;
+            /* font-size: 25px; */
         }
         .MarginCardTel02{
             margin-top: 35px;
+        }
+        .TituloTela03{
+            /* font-size: 35px; */
+        }
+        .textotel3{
+            /* font-size: 20px; */
         }
         .ImagemCadeadoTel06{
             display: none;
@@ -434,4 +442,54 @@ margin-left: -65px;
             justify-items: center;
             align-items: center;
         }
+ }
+ @media (max-width: 576px) {
+    .Destaque-Fonte{
+        font-size: 35px;
+    }
+    #section02{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
+    .CardTransparentNotbook{
+        display: none;
+    }
+    .TextTitleCardTransparentSection2{
+        font-size: 35px;
+        text-align: left;
+    }
+    .TextBodyCardTransparentSection2{
+        font-size: 15px;
+    }
+    .TituloTela03{
+        font-size: 25px;
+    }
+    .textotel3{
+        font-size: 15px;
+        left: 15px;
+    }
+    .ButtonTela03{
+        text-align: center;
+    }
+    .ButonTela03{
+        max-width: 300px;
+        width: 300px;
+    }
+    .ParagrafoTel04{
+        margin-left: 10%;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        justify-content: center;
+        text-align: justify;
+    }
+    .H6TitutoTel05{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
  }
