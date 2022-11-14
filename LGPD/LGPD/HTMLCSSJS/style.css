@@ -120,9 +120,13 @@ nav{
     font-size: 40px;
     font-weight: 700;
 }
-#section02 p{
-    font-size: 25px;
+.PTextTel02{
+    font-size: 20px;
 }
+.PText2Tel02{
+    font-size: 15px;
+}
+
 .CardTransparentNotbook{
     background: transparent;
     border: none;
@@ -137,6 +141,9 @@ nav{
     background: #b86f96;
     justify-content: center;
     text-align: justify;
+}
+.MarginCardTel02{
+    margin-top: 20px;
 }
 
 .CardTransparent{
@@ -217,7 +224,7 @@ background-size: cover;
 }
 .ParagrafoTel04{
     margin-left: 10%;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     font-weight: 500;
     justify-content: center;
@@ -225,25 +232,35 @@ background-size: cover;
 }
 #section04 .card{
     margin-top: 70%;
-    width: 400px;
-    max-width: 400px;
+    width: 300px;
+    max-width: 300px;
     height: 400px;
     max-height: 400px;
     background: #b86f96;
     justify-content: center;
     text-align: center;
+    
 }
 .ImagemRepresentantesTel04{
-    width: 325px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     position: relative;
-    top: -30%;
-    left: 40px;
+    top: -40%;
+    /* left: 40px; */
+    border-radius: 10px;
+}
+.ImagemRepresentantesTel05{
+    width: 300px;
+    height: 400px;
+    max-height: 600px;
+    position: relative;
+    top: -40%;
+    /* left: 40px; */
     border-radius: 10px;
 }
 #section04 .card .card-title{
     font-size: 30px;
-    margin-top: -30%;
+    margin-top: -60%;
     
 }
 .H6TitutoTel05{
@@ -275,6 +292,7 @@ background-size: cover;
 .TamanhoCardTel6{
     width: 270px;
     height: 500px;
+
    
 }
 .LinhaBotaoTel05{
@@ -287,6 +305,16 @@ background-size: cover;
 }
 .ImagemTela06{
     background: linear-gradient(100deg,#E6445C,#160E73);
+}
+.ImagemCadeadoTel06{
+width: 400px;
+height: 400px;
+margin-left: -65px;
+}
+#ImagemCadeadoTel06{
+    -webkit-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+     transform: rotate(330deg);
 }
 .row-footer{
     background: #160E73;
@@ -335,3 +363,75 @@ background-size: cover;
     width: 100%;
     height: auto;
   }
+  @media (min-width: 568px) and (max-width: 768px) {
+    .ModifyTabletTel01Text{
+        text-align: center;
+    }
+    .CardTransparentNotbook{
+        display: none;
+    }
+    .CardTransparent{
+        background: transparent;
+        width: 250px;
+        max-width: 320px;
+        height: 150px;
+        max-height: 300px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: justify;
+        border: none;
+        left: 150px;
+        }
+        #section02 h5{
+            font-size: 20px;
+        }
+        #section02 .card-body p{
+            font-size: 10px;
+        }
+         /* br{
+            display: none;
+        } */
+        .card-title{
+            text-align: center;
+        }
+        .CardOpacity{
+            width: 300px;
+            max-width: 320px;
+            height: 300px;
+            max-height: 300px;
+            display: flex;
+            /* flex-direction: column; */
+            background: #b86f96;
+            justify-content: center;
+            text-align: justify;
+            left: 150px;
+        }
+        .PTextTel02{
+            font-size: 15px;
+        }
+        .TextTitleCardTransparentSection2{
+            text-align: left;
+        }
+        .TextBodyCardTransparentSection2{
+            text-align: left;
+        }
+        .MarginCardTel02{
+            margin-top: 35px;
+        }
+        .ImagemCadeadoTel06{
+            display: none;
+        }
+        .FontFooter{
+            font-size: 11px;
+        }
+        .TamanhoCardTel6{
+            margin: 2%;
+        }
+        .Center{
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+ }
