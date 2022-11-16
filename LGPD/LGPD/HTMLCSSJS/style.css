@@ -269,14 +269,14 @@ background-size: cover;
 .LogoTel04{
     width: 90%;
     /* height: 400px; */
-    margin-top: -90px;
+    /* margin-top: -60px; */
 }
 .H6DestaqueTel04{
     width: 600px;
     font-size: 70px;
     font-weight: 700;
     margin-left: 8%;
-    margin-top: -60px ;
+    margin-top: -20px ;
     
 }
 .ParagrafoTel04{
@@ -433,10 +433,10 @@ margin-left: -330px;
     }
     .CardTransparent{
         background: transparent;
-        width: 250px;
-        max-width: 320px;
-        height: 150px;
-        max-height: 300px;
+        width: 350px;
+        max-width: 350px;
+        height: 200px;
+        max-height: 200px;
         display: flex;
         /* flex-direction: column; */
         justify-content: center;
@@ -457,10 +457,10 @@ margin-left: -330px;
             text-align: center;
         }
         .CardOpacity{
-            width: 300px;
-            max-width: 320px;
-            height: 300px;
-            max-height: 300px;
+            width: 350px;
+            max-width: 350px;
+            height: 600px;
+            max-height: 450px;
             display: flex;
             /* flex-direction: column; */
             background: #b86f96;
